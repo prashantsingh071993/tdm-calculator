@@ -1,0 +1,117 @@
+# Changelog
+
+## v0.2.1 (30/01/2020)
+
+
+---
+
+## v0.2.0 (30/01/2020)
+- [Align summary box names to center](https://github.com/hackforla/tdm-calculator/commit/5d9ef5579ad35ab1f7aef266ad6266e2edb2ad38) - @fyliu
+- [Revert component name change](https://github.com/hackforla/tdm-calculator/commit/71d5164b91e75353319def832222ecbf67ddd75b) - @fyliu
+- [fixing font weights](https://github.com/hackforla/tdm-calculator/commit/6724d9268c4e7f8e24053a748c84fa31688195b8) - @mmorgs
+- [minor style fixes and merge conflict fixes](https://github.com/hackforla/tdm-calculator/commit/16a445952a43af5c16f4d5007def28c122fdc3d0) - @mmorgs
+- [#182](https://github.com/hackforla/tdm-calculator/commit/29f15673500ac811b8fc73a710dab40b8496e346) - @mmorgs
+- [layout bug fixes on #157](https://github.com/hackforla/tdm-calculator/commit/4fd704bb5d4cca5c8daa7b09b8edb640b84e67a8) - @mmorgs
+- [rebase develop into uncheck](https://github.com/hackforla/tdm-calculator/commit/38d6dc9a73a8dabc79653e0b3df306302faa3f7a) - @bfojas
+- [Reorganized final review page boxes #146](https://github.com/hackforla/tdm-calculator/commit/9ae7a6d717f7ef6edb34b088c61620c6d8a64f11) - @nclairesays
+- [fixes #210 - added blue headers and hover effect for inputs](https://github.com/hackforla/tdm-calculator/commit/6321774f88de2558ddbf7874d9b4807ba0567b93) - @nclairesays
+- [Revert "Developed sort/filter bar for Projects, moved user-context and adjusted syntax for ToastContext"](https://github.com/hackforla/tdm-calculator/commit/22fb7046b754be72f92c1f31fa3329b26fb635b9) - @fyliu
+- [code clean up](https://github.com/hackforla/tdm-calculator/commit/8280c098617b0cf3e5eb3ef9487cb68b3f4bbd01) - @bfojas
+- [Set default sort direction up to match existing projects list](https://github.com/hackforla/tdm-calculator/commit/d2a6b09f59c2ebb1c66336fce49e291d0074d1dc) - @fyliu
+- [Disable project filtering by user for testing period](https://github.com/hackforla/tdm-calculator/commit/6fa8ffaa317fff917a726ad0164b28d0230f4f39) - @fyliu
+- [fixed merge conflicts](https://github.com/hackforla/tdm-calculator/commit/637b9fae8ac0950e47abdf02673f0ec85ec3d3cf) - @bfojas
+- [uncheck all feature added to project parameters and strategies pages.](https://github.com/hackforla/tdm-calculator/commit/115be270c69b49a0cf70e7900c1228d0d8c56c05) - @bfojas
+- [Blank out value when entering zero](https://github.com/hackforla/tdm-calculator/commit/cc743c99435914b053ccd2681578c4d62d20adc6) - @fyliu
+- [uncheck all works. Need ui suggestions for how to render](https://github.com/hackforla/tdm-calculator/commit/0da618a9bcd576fb84f8aac70e603dffbc08e8ff) - @bfojas
+- [reset/uncheck all is working](https://github.com/hackforla/tdm-calculator/commit/18ae6d69622849d4ca9e172a0525ddfe91a7624a) - @bfojas
+- [change branch](https://github.com/hackforla/tdm-calculator/commit/7a98c78827f665497a95583b803661317388df50) - @bfojas
+- [minor bug fix](https://github.com/hackforla/tdm-calculator/commit/79db9f54b6a668dd9f5b9f85dda5ad91eeb5b680) - @mmorgs
+- [moving rest of inline styles to JSS](https://github.com/hackforla/tdm-calculator/commit/b5426d2327c7cefabac9deea06552b4a2f3b519e) - @mmorgs
+- [moving inline styles to JSS - in progress](https://github.com/hackforla/tdm-calculator/commit/9939fa7780d14f585108b250043d216e9662649d) - @mmorgs
+- [Set number input to accept only numeric input](https://github.com/hackforla/tdm-calculator/commit/51b926f2a629e6f4f6a9b1090657191ba5a925c7) - @fyliu
+- [fix spacing](https://github.com/hackforla/tdm-calculator/commit/1557f1d1726d5dbc27b808326a411957d23f5874) - @bfojas
+- [fix spacing](https://github.com/hackforla/tdm-calculator/commit/89bab1e53978a9c9918e5aca73a880af38de34f1) - @bfojas
+- [check email notification after registration](https://github.com/hackforla/tdm-calculator/commit/25974ffeabad64d03b262e906f8d1e763f8e7c98) - @bfojas
+- [Refactor getRuleByCode and limitMinMax](https://github.com/hackforla/tdm-calculator/commit/83aa980009f319ce50ee981bf1412d1b70cfd1f2) - @fyliu
+- [Conditionally render New Project Link in Nav](https://github.com/hackforla/tdm-calculator/commit/f04c5f0c4cd6b52de6185324b39c20bc0dd48298) - @nclairesays
+- [rendering message to check email on after registration](https://github.com/hackforla/tdm-calculator/commit/c9265b850a02b3f635daeeb3b135cf9d86a4f43e) - @bfojas
+- [Did preliminary filter/sort for showing projects, moved user-context to contexts folder, and changed syntax for ToastContext](https://github.com/hackforla/tdm-calculator/commit/a56ad483712d1217df1008b4210e016dc7331e2e) - @nicholaspung
+- [Validate number rules with min/max](https://github.com/hackforla/tdm-calculator/commit/a2c08cff7eecc274a75750b43ebba709b1f17916) - @fyliu
+- [Fix ruleCode filter](https://github.com/hackforla/tdm-calculator/commit/000cb2a383ec3d120e34fdf83824a23c15598e7e) - @fyliu
+- [Separated WizardRulePanels for inputs and strategies, Renamed Measures to Strategies](https://github.com/hackforla/tdm-calculator/commit/0d7ba872accc261dd733e6a8faf6879c27e4bb59) - @nclairesays
+- [#168 - highlight measures, display points, headers, style refactor](https://github.com/hackforla/tdm-calculator/commit/c2c63974c474d95467bce95abbfb0f3af6e4ac37) - @nclairesays
+- [query added to link at bottom of landing](https://github.com/hackforla/tdm-calculator/commit/7996d4499a96852f6d492d2d505b1327a2b8762f) - @bfojas
+- [added query to button on landing page](https://github.com/hackforla/tdm-calculator/commit/bd6557ab705b73db96ced3352c7af57143ef1646) - @bfojas
+- [set routes to work correctly using browser navigations](https://github.com/hackforla/tdm-calculator/commit/f71e40ebe47cafda6b40bca926bb3b6a90924657) - @bfojas
+- [Contributing typos](https://github.com/hackforla/tdm-calculator/commit/f893f890b76af4f22e50969a2938db0c5de4d50d) - @fyliu
+- [Wire up description column on Project Page](https://github.com/hackforla/tdm-calculator/commit/692c1233953a402f0ad5a47249bbad134ec08a5a) - @entrotech
+- [Update Contributing.md](https://github.com/hackforla/tdm-calculator/commit/58fff358105379de947533676a9df9a83f7c4475) - @entrotech
+- [Update Release instructions in contributing.md](https://github.com/hackforla/tdm-calculator/commit/1ea06b7e0f2e70bcb0b9738a250a460c408d79ac) - @entrotech
+
+---
+
+## v0.1.0 (14/01/2020)
+- [Bumped version # to 1.0.3](https://github.com/hackforla/tdm-calculator/commit/9f8f6ef5260411edf77cdd76621b5aa690c00ae0) - @entrotech
+- [Minor change to contributing.md](https://github.com/hackforla/tdm-calculator/commit/19660f6556975e21425e9f7dfb8eaec2ee1db693) - @entrotech
+- [textarea](https://github.com/hackforla/tdm-calculator/commit/ffeceb6d7a3153656a98aa3dfd2e1efa2ff710d2) - @entrotech
+- [Modify WizardRuleInput to support textareas](https://github.com/hackforla/tdm-calculator/commit/ac09b3fa85640405369b73363bab29f07e08b5cc) - @entrotech
+- [Add release # to About page](https://github.com/hackforla/tdm-calculator/commit/9a4f216cfdc846e97689554a39019d88a07ff04a) - @entrotech
+- [Issue #191 - Support textarea inputs](https://github.com/hackforla/tdm-calculator/commit/479c82def55085dcdec65a84f8703127977aff18) - @entrotech
+- [Changed the route syntax to be consistent throughout app.js](https://github.com/hackforla/tdm-calculator/commit/b60cb259a4001c1e5c7d4081ed329a05fec3b30a) - @nicholaspung
+- [Changed outside div to fragment, styled name white to show current user](https://github.com/hackforla/tdm-calculator/commit/19352f098460a6374d2fdaa94a7122c4a65471eb) - @nicholaspung
+- [added 'terms and conditions/ privacy policy' links to bottom of sidebar](https://github.com/hackforla/tdm-calculator/commit/f7ff9d040582fd2920852eacdbd8740541e972f1) - @bfojas
+- [added reusable sidebar.](https://github.com/hackforla/tdm-calculator/commit/acc6c1706829d3bd8f65743a482fae8cf53bfac1) - @bfojas
+- [fixed sendgrid response handling for forgot password](https://github.com/hackforla/tdm-calculator/commit/113c6fcafa313325fc49bb81cafbe4f278033c65) - @bfojas
+- [css cleanup of login and reset password to match designs. Fix cross-browser issue.](https://github.com/hackforla/tdm-calculator/commit/854cf1de8d11eba585526b207c38042ca83f84ae) - @bfojas
+- [fixed conditional render on forgot password](https://github.com/hackforla/tdm-calculator/commit/b6e231774825c4ff46d187d0f9f7becaa247c538) - @bfojas
+- [Added Projects Page](https://github.com/hackforla/tdm-calculator/commit/805e314678da70facbacddd07d6434848cb5717d) - @entrotech
+- [Saving Projects](https://github.com/hackforla/tdm-calculator/commit/61e38c7cb92bf560b04e655f174e69f6999d9f40) - @entrotech
+- [Hookup Set Started button on Landing Page, fix prob with App.js with reading account from local storage.](https://github.com/hackforla/tdm-calculator/commit/5cff22dca4ccbdaaaa002bcf5740a9e7c17ba146) - @entrotech
+- [backend files not added in previous commit. Changed password reset redirect to login to include email address](https://github.com/hackforla/tdm-calculator/commit/7004dbdbbb6b1d5ea402b4e28a85aa4c95238c5e) - @bfojas
+- [Added password reset success message before redirect to login.](https://github.com/hackforla/tdm-calculator/commit/41b74dc59e3718e4045318902326a1d2787b7cef) - @bfojas
+- [reset password works. Changed wording on sendgrid email.](https://github.com/hackforla/tdm-calculator/commit/fdd1c3bf6e5d13cc9d10a53e7425826631eba91b) - @bfojas
+- [Saving, Loading Projects](https://github.com/hackforla/tdm-calculator/commit/2d3d33b48a14db8fe39274251bb5a3d327180cde) - @entrotech
+- [request password reset email works. login bug fixed](https://github.com/hackforla/tdm-calculator/commit/244277197839f19673e0b6dea47c9e4567f10abf) - @bfojas
+- [password recovery](https://github.com/hackforla/tdm-calculator/commit/debd66229e1b71786f294002dfc639a6741bc7d1) - @bfojas
+- [styling nav, removing scss file](https://github.com/hackforla/tdm-calculator/commit/d92c731a1f66dffa051882fc05107b4e15dddf1f) - @mmorgs
+- [adding url to landing page cta](https://github.com/hackforla/tdm-calculator/commit/0487ed0b34050c0e6444f01498457c8c0bf1694a) - @mmorgs
+- [merging in master](https://github.com/hackforla/tdm-calculator/commit/58ac8084dc39ffd70a9a7ad067ab645e477f0a6f) - @mmorgs
+- [landing page cleanup](https://github.com/hackforla/tdm-calculator/commit/13f2a1ed9027526291221ac21ef9ccba960e0499) - @mmorgs
+- [moving landing page to its own folder](https://github.com/hackforla/tdm-calculator/commit/6e142f3bb7136204c0a7c53e90f472b9aabade9d) - @mmorgs
+- [landing page cleanup](https://github.com/hackforla/tdm-calculator/commit/b9b69b57645e05b8f2d1b7481e2adfd16a964d3c) - @mmorgs
+- [moving landing page to its own folder](https://github.com/hackforla/tdm-calculator/commit/4f2616fd5bca432032755528f5c3ac03bf917648) - @mmorgs
+- [Work on CSS for Calculation Layout](https://github.com/hackforla/tdm-calculator/commit/e45f11796760dd77c3b7625931b857a47f75e86f) - @entrotech
+- [Add more styling to res dev](https://github.com/hackforla/tdm-calculator/commit/def11b175c6f7a1129272f9c7c1c5767725d47ab) - @natjng
+- [Delete comments](https://github.com/hackforla/tdm-calculator/commit/6787b8b1ab22c7a515da578769d8783a6acb494e) - @natjng
+- [Create and implement why section stylesheet](https://github.com/hackforla/tdm-calculator/commit/a76206d05a80bc9c637d10dc261ff6a44f085d46) - @natjng
+- [Create and implement res dev section stylesheet](https://github.com/hackforla/tdm-calculator/commit/ddb75f5bcfc3c99096bba49b0ef4a55cc3951b81) - @natjng
+- [Create and implement LandingPageEnd stylesheet](https://github.com/hackforla/tdm-calculator/commit/2015db948abbed703faeb65ffeeb126fb82ed811) - @natjng
+- [Edit font size and weight](https://github.com/hackforla/tdm-calculator/commit/6bf352b4a73a968191c037f8450e440b10fa17c2) - @natjng
+- [Add classes to divs and import images](https://github.com/hackforla/tdm-calculator/commit/682ad5dbc26a5de2cb2721fbfe5b1fceb7a8e257) - @natjng
+- [Create LandingPageMockUp stylesheet](https://github.com/hackforla/tdm-calculator/commit/5a03fcf0c6b127dcd142fd8af7ef21147b24f357) - @natjng
+- [Add mock-macbook png file](https://github.com/hackforla/tdm-calculator/commit/06f3a118d7601e26de721d63436c8c8a15ed7bf8) - @natjng
+- [Format Calculation Review Page for printing](https://github.com/hackforla/tdm-calculator/commit/0d13c12beb677a6a5b86362992d84c9bebffb5cc) - @entrotech
+- [Changed invalid input error messags color to red](https://github.com/hackforla/tdm-calculator/commit/f12506db0f03ba21a22e3dbb07bd52e19496cd0e) - @nclairesays
+- [Removed toasts and added auth error msgs under submit button](https://github.com/hackforla/tdm-calculator/commit/c1a7f245e300086f74e62ff6571a0e88041c9887) - @nclairesays
+- [landing page "Why LA TDM" section. JSS used.](https://github.com/hackforla/tdm-calculator/commit/bec36655068d9ad79ae454b4e3f215f6d9353eb9) - @bfojas
+- [Edit hero image text position](https://github.com/hackforla/tdm-calculator/commit/e5228b91a5a1012cb471843df100f8433446b236) - @natjng
+- [Switch bg image to img tag in div](https://github.com/hackforla/tdm-calculator/commit/53c67166d947d38474b11e42fd9f911349a58e23) - @natjng
+- [Separate stylesheets for each component](https://github.com/hackforla/tdm-calculator/commit/974f30f92475db98b991d1b881d5a2bcbea4e3df) - @natjng
+- [Import and use icons](https://github.com/hackforla/tdm-calculator/commit/e873ce21e8854302b9af1b38b0fb80a1dd53e75d) - @natjng
+- [Add landing page icon svg files](https://github.com/hackforla/tdm-calculator/commit/2aa59598461773dec43ebed25341c7b2cf0e2404) - @natjng
+- [Place text div in container](https://github.com/hackforla/tdm-calculator/commit/d6b470d9db0c50e27a6f1b60b3a40f5a61bf6323) - @natjng
+- [Adjust and rename section container](https://github.com/hackforla/tdm-calculator/commit/db560523c991ec88db898aae5d813bea168cfb14) - @natjng
+- [Create and implement classes for intro icons](https://github.com/hackforla/tdm-calculator/commit/69b8b5ae93b8009787f39317d8a6084730c53a30) - @natjng
+- [Client-Side validation of numeric wizard inputs](https://github.com/hackforla/tdm-calculator/commit/e48952f4210a8978e14206e50560be72e27c8319) - @entrotech
+- [Create stylesheet for LandingPage](https://github.com/hackforla/tdm-calculator/commit/b8dd05f461b3ef59205b3d4aa0558cd39f2f48c8) - @natjng
+- [Issue #138 - Add column to strategies showing possible points](https://github.com/hackforla/tdm-calculator/commit/542318f972457e142eafb58d59ffde37c7faf285) - @entrotech
+- [Added warning on hover, fixed button className - Login Component](https://github.com/hackforla/tdm-calculator/commit/7547f53d09983dae511606d175881e192a4b1e00) - @nclairesays
+- [Added continue without saving button & updated some text/css](https://github.com/hackforla/tdm-calculator/commit/7e653329eb5ec49274d9fe691bdf8328f49b789d) - @nclairesays
+- [Add Package Buttons to Wizard, zero out inputs, measures not displayed](https://github.com/hackforla/tdm-calculator/commit/cb402999b3b1445cad424a21b37787128bb4616c) - @entrotech
+- [Redirect succesful login to /calculation instead of /admin](https://github.com/hackforla/tdm-calculator/commit/5e5e2aec7a5691377428e9f6b35d32165930449c) - @nclairesays
+- [Revert "Push to /login instead of /admin if login successful"](https://github.com/hackforla/tdm-calculator/commit/8a5823cd6c224cb6033e554491483cf0ff13f85b) - @ExperimentsInHonesty
+- [Push to /login instead of /admin if login successful](https://github.com/hackforla/tdm-calculator/commit/d9d6313bc711e8082f260b87cb6ee91823b8ed9c) - @nclairesays
+- [Add class to center text for section end](https://github.com/hackforla/tdm-calculator/commit/11c66212ca32dc1d2e2f0b915bb1bdc2c9d0f0ed) - @natjng
+- [Rename class to landing-page-center-text](https://github.com/hackforla/tdm-calculator/commit/1690a04d6cb9ca0198297bd4f7bbc83f6a79ee4c) - @natjng
+- [Edit vertical margins](https://github.com/hackforla/tdm-calculator/commit/61a99bd258ef63f0bf46d0d6a19993f89848bd6d) - @natjng
+- [Add classes to landing page intro div](https://github.com/hackforla/tdm-calculator/commit/3f4cd2fbeee076084e1860a157676c0f7c38fae8) - @natjng
