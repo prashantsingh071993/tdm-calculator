@@ -28,6 +28,10 @@
         "STRATEGY_BIKE_4": "true",
         "STRATEGY_PARKING_1": "true",
         "STRATEGY_PARKING_5": "true"
+      },
+      "validate": {
+        "Target Points": "15",
+        "Earned Points": "16"
       }
     }
   }

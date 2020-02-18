@@ -21,10 +21,9 @@ describe("Authentication page.", () => {
       calculationWPage.forward();
       calculationWPage.fillParking(project.parking);
       calculationWValidation.checkParking(project.parking);
-      // check project level and target TDM Points
       calculationWPage.forward();
       calculationWPage.fillStrategies(project.strategies);
-      // check earned points
+      calculationWValidation.checkStrategies(project.strategies);
       calculationWPage.forward();
       // check calculation summary
       // review

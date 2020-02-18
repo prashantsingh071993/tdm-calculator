@@ -14,6 +14,17 @@ class CalculationWValidation {
       ).to.equal(value);
     });
   }
+
+  checkStrategies(strategies) {
+    Object.entries(strategies.validate).map(([key, value]) => {
+      expect(
+        browser
+          .$("h3=" + key)
+          .$("../div")
+          .getText()
+      ).to.equal(value);
+    });
+  }
 }
 
 export const calculationWValidation = new CalculationWValidation();
