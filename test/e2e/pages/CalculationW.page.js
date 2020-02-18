@@ -46,8 +46,8 @@ class CalculationWPage {
     });
   }
 
-  fillInput(input) {
-    Object.entries(input).map(([key, value]) => {
+  fillInputs(inputs) {
+    Object.entries(inputs).map(([key, value]) => {
       this.input(key, value);
     });
   }

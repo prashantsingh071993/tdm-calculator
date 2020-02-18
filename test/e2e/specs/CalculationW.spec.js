@@ -17,7 +17,7 @@ describe("Authentication page.", () => {
       calculationWPage.forward();
       calculationWPage.fillLandUse(project.landUse);
       calculationWPage.forward();
-      calculationWPage.fillInput(project.input);
+      calculationWPage.fillInputs(project.inputs);
       calculationWPage.forward();
       calculationWPage.fillParking(project.parking);
       // check project level and target TDM Points

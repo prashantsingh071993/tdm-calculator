@@ -7,7 +7,7 @@
     "landUse": {
       "LAND_USE_RESIDENTIAL": "true"
     },
-    "input": {
+    "inputs": {
       "UNITS_CONDO": "46",
       "PARK_CONDO": "92"
     },
