@@ -20,9 +20,13 @@ describe("Authentication page.", () => {
       calculationWPage.fillInput(project.input);
       calculationWPage.forward();
       calculationWPage.fillParking(project.parking);
+      // check project level and target TDM Points
       calculationWPage.forward();
       calculationWPage.fillStrategies(project.strategies);
+      // check earned points
       calculationWPage.forward();
+      // check calculation summary
+      // review
     }
   });
 });
