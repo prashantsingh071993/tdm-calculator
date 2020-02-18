@@ -1,7 +1,6 @@
-import { expect } from "chai";
 import { calculationWPage } from "../pages/CalculationW.page";
 import { calculationWValidation } from "../validations/CalculationW.validation";
-const assert = require("assert");
+import { context } from "../../data/Context";
 
 describe.only("Authentication page.", () => {
   before(() => {
@@ -13,6 +12,6 @@ describe.only("Authentication page.", () => {
   });
 
   it("Fills project rules", () => {
-    calculationWPage.fillProject(null);
+    calculationWPage.fillProject(context.projects.projects.project);
   });
 });

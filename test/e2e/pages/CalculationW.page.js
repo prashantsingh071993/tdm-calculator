@@ -7,22 +7,16 @@ class CalculationWPage {
     return browser.getTitle();
   }
 
-  get inputProjectName() {
-    return browser.$("input[name='PROJECT_NAME']");
-  }
-
   getInputText(name) {
     return browser.$("input[name='" + name + "']");
   }
 
   fillProject(project) {
     // project
-    this.getInputText("PROJECT_NAME").waitForEnabled();
-    this.getInputText("PROJECT_NAME").setValue("Barrington Condo");
-    //this.inputAddress.waitForEnabled();
-    //this.inputAddress.setValue(project.address);
-    //this.inputDescription.waitForEnabled();
-    //this.inputDescription.setValue(project.description);
+    Object.entries(project).map(([key, value]) => {
+      this.getInputText(key).waitForEnabled();
+      this.getInputText(key).setValue(value);
+    });
     // check next page
   }
 
