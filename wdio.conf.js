@@ -7,6 +7,7 @@ exports.config = {
   // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
   // on a remote machine).
   runner: "local",
+  //port: 3000,
   //
   // Override default path ('/wd/hub') for chromedriver service.
   path: "/",
@@ -19,7 +20,7 @@ exports.config = {
   // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
-  specs: ["./test/specs/**/*.js"],
+  specs: ["./test/e2e/specs/*.spec.js"],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -91,7 +92,7 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: "http://localhost",
+  baseUrl: "http://localhost:3000",
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
@@ -132,7 +133,7 @@ exports.config = {
     ui: "bdd",
     compilers: ["js:@babel/register"],
     timeout: 60000
-  }
+  },
   //
   // =====
   // Hooks
@@ -250,4 +251,7 @@ exports.config = {
    */
   //onReload: function(oldSessionId, newSessionId) {
   //}
+  before() {
+    browser.setwindowSize(1280, 720);
+  }
 };
