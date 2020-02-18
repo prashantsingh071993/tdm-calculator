@@ -12,6 +12,6 @@ describe.only("Authentication page.", () => {
   });
 
   it("Fills project rules", () => {
-    calculationWPage.fillProject(context.projects.projects.project);
+    calculationWPage.fillProject(context.projects.projects[0].project);
   });
 });

@@ -1,8 +1,10 @@
 {
-  "projects": {
-    "project": {
-      "PROJECT_NAME": "Barrington Condo",
-      "PROJECT_ADDRESS": "825 S. Barrington Av"
+  "projects": [
+    {
+      "project": {
+        "PROJECT_NAME": "Barrington Condo",
+        "PROJECT_ADDRESS": "825 S. Barrington Av"
+      }
     }
-  }
+  ]
 }
