@@ -12,7 +12,15 @@
       "PARK_CONDO": "92"
     },
     "parking": {
-      "PARK_SPACES": "88"
+      "input": {
+        "PARK_SPACES": "88"
+      },
+      "validate": {
+        "INPUT_PARK_REQUIREMENT": "92 spcs",
+        "PARK_RATIO": "95.65 %",
+        "LEVEL": "1",
+        "INPUT_TARGET_POINTS_PARK": "15 pts"
+      }
     },
     "strategies": {
       "select": { "STRATEGY_AFFORDABLE": "35% of State Density Bonus" },

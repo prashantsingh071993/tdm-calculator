@@ -53,7 +53,7 @@ class CalculationWPage {
   }
 
   fillParking(parking) {
-    Object.entries(parking).map(([key, value]) => {
+    Object.entries(parking.input).map(([key, value]) => {
       this.input(key, value);
     });
   }
