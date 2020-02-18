@@ -133,7 +133,7 @@ exports.config = {
     ui: "bdd",
     compilers: ["js:@babel/register"],
     timeout: 60000
-  },
+  }
   //
   // =====
   // Hooks
@@ -251,7 +251,4 @@ exports.config = {
    */
   //onReload: function(oldSessionId, newSessionId) {
   //}
-  before() {
-    browser.setwindowSize(1280, 720);
-  }
 };
