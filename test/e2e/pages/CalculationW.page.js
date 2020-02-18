@@ -11,10 +11,14 @@ class CalculationWPage {
     return browser.$("input[name='PROJECT_NAME']");
   }
 
+  getInputText(name) {
+    return browser.$("input[name='" + name + "']");
+  }
+
   fillProject(project) {
     // project
-    this.inputProjectName.waitForEnabled();
-    this.inputProjectName.setValue("Barrington Condo");
+    this.getInputText("PROJECT_NAME").waitForEnabled();
+    this.getInputText("PROJECT_NAME").setValue("Barrington Condo");
     //this.inputAddress.waitForEnabled();
     //this.inputAddress.setValue(project.address);
     //this.inputDescription.waitForEnabled();
