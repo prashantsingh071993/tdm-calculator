@@ -25,6 +25,17 @@ class CalculationWValidation {
       ).to.equal(value);
     });
   }
+
+  checkReview(review) {
+    Object.entries(review.validate).map(([key, value]) => {
+      expect(
+        browser
+          .$("div=" + key)
+          .$("../div")
+          .getText()
+      ).to.equal(value);
+    });
+  }
 }
 
 export const calculationWValidation = new CalculationWValidation();

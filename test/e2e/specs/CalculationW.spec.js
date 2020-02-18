@@ -25,8 +25,7 @@ describe("Authentication page.", () => {
       calculationWPage.fillStrategies(project.strategies);
       calculationWValidation.checkStrategies(project.strategies);
       calculationWPage.forward();
-      // check calculation summary
-      // review
+      calculationWValidation.checkReview(project.review);
     }
   });
 });

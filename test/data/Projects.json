@@ -33,6 +33,14 @@
         "Target Points": "15",
         "Earned Points": "16"
       }
+    },
+    "review": {
+      "validate": {
+        "Project Level": "1",
+        "Provided / Required Parking": "95 %",
+        "Target Points": "15",
+        "Earned Points": "16"
+      }
     }
   }
 ]
