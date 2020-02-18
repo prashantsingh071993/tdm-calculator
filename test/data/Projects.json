@@ -1,10 +1,26 @@
-{
-  "projects": [
-    {
-      "project": {
-        "PROJECT_NAME": "Barrington Condo",
-        "PROJECT_ADDRESS": "825 S. Barrington Av"
+[
+  {
+    "project": {
+      "PROJECT_NAME": "Barrington Condos",
+      "PROJECT_ADDRESS": "825 S. Barrington Av"
+    },
+    "landUse": {
+      "LAND_USE_RESIDENTIAL": "true"
+    },
+    "input": {
+      "UNITS_CONDO": "46",
+      "PARK_CONDO": "92"
+    },
+    "parking": {
+      "PARK_SPACES": "88"
+    },
+    "strategies": {
+      "select": { "STRATEGY_AFFORDABLE": "35% of State Density Bonus" },
+      "check": {
+        "STRATEGY_BIKE_4": "true",
+        "STRATEGY_PARKING_1": "true",
+        "STRATEGY_PARKING_5": "true"
       }
     }
-  ]
-}
+  }
+]

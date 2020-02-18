@@ -7,48 +7,62 @@ class CalculationWPage {
     return browser.getTitle();
   }
 
-  getInputText(name) {
+  get buttonForward() {
+    return browser.$(".tdm-wizard-nav-button:nth-child(2)");
+  }
+
+  getInput(name) {
     return browser.$("input[name='" + name + "']");
+  }
+
+  getSelect(name) {
+    return browser.$("select[name='" + name + "']");
   }
 
   fillProject(project) {
     // project
     Object.entries(project).map(([key, value]) => {
-      this.getInputText(key).waitForEnabled();
-      this.getInputText(key).setValue(value);
+      this.getInput(key).waitForEnabled();
+      this.getInput(key).setValue(value);
     });
     // check next page
   }
 
-  fillDevelopmentType(project) {
+  fillLandUse(landUse) {
     // land use
-    // loop
-    this.selectCheckbox(project.type).check();
+    Object.entries(landUse).map(([key, value]) => {
+      this.getInput(key).waitForEnabled();
+      this.getInput(key).click();
+    });
   }
 
-  fillProjectSpecs(project) {
+  fillInput(input) {
     // input
-    // loop
-    this.selectInput(project.spec.inputName)
-      .waitForEnabled()
-      .setValue(project.spec.inputValue);
+    Object.entries(input).map(([key, value]) => {
+      this.getInput(key).waitForEnabled();
+      this.getInput(key).setValue(value);
+    });
   }
 
-  fillParkingSpaces(project) {
+  fillParking(parking) {
     // parking
-    this.selectInput("Parking Provided")
-      .waitForEnabled()
-      .setValue(project.parkingValue);
+    Object.entries(parking).map(([key, value]) => {
+      this.getInput(key).waitForEnabled();
+      this.getInput(key).setValue(value);
+    });
     // check project level and target TDM Points
   }
 
-  fillTDMStrategies(project) {
+  fillStrategies(strategies) {
     // strategy
-    // loop
-    this.selectCheckbox(project.tdmStrategy).check();
-    this.selectSelection(project.tdmStrategy).select(
-      project.tdmStrategySelection
-    );
+    Object.entries(strategies.check).map(([key, value]) => {
+      this.getInput(key).waitForEnabled();
+      this.getInput(key).click();
+    });
+    Object.entries(strategies.select).map(([key, value]) => {
+      this.getSelect(key).waitForEnabled();
+      this.getSelect(key).selectByVisibleText(value);
+    });
     // check earned points
   }
 
