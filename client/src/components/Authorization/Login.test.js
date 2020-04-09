@@ -60,7 +60,7 @@ describe("Login component", () => {
     // expect handleSubmit to be called
   });
 
-  it("calls handleSubmit on submit", async () => {
+  it("succeeds on valid login", async () => {
     const fakeResponse = {
       code: "AUTH_NOT_CONFIRMED",
       user: "user",
