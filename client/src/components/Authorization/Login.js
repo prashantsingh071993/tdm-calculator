@@ -4,7 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 import { createUseStyles } from "react-jss";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import * as accountService from "../../services/account.service";
+import * as realAccountService from "../../services/account.service";
 import SideBar from "../Sidebar";
 import clsx from "clsx";
 
@@ -26,11 +26,13 @@ const useStyles = createUseStyles({
   }
 });
 
+const defaultAccountService = realAccountService;
+
 const Login = props => {
   const classes = useStyles();
   const [errorMsg, setErrorMsg] = useState("");
 
-  const { setLoggedInAccount, match } = props;
+  const { setLoggedInAccount, match, accountService } = props;
   const initialValues = {
     email: match.params.email ? decodeURIComponent(match.params.email) : "",
     password: ""
@@ -187,6 +189,10 @@ Login.propTypes = {
     })
   }),
   setLoggedInAccount: PropTypes.func.isRequired
+};
+
+Login.defaultProps = {
+  accountService: defaultAccountService
 };
 
 export default withRouter(Login);
