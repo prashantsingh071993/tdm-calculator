@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import RuleStrategyPanels from "../RuleStrategy/RuleStrategyPanels";
 import InfoBox from "../InfoBox";
-import ToolTipIcon from "../SidebarPoints/ToolTipIcon";
+import QuestionMarkIcon from "../SidebarPoints/QuestionMarkIcon";
 
 function ProjectMeasure(props) {
   const {
@@ -76,8 +76,8 @@ function ProjectMeasure(props) {
         Select strategies to earn TDM points
       </h3>
       <InfoBox displayStatus={displayInfoBox} handleClick={closeInfoBox}>
-        <ToolTipIcon /> For detailed information, hover the mouse cursor over
-        the terminology.
+        <QuestionMarkIcon /> For detailed information, hover the mouse cursor
+        over the terminology.
       </InfoBox>
       <div className={classes.unSelectContainer}>
         <button
@@ -95,7 +95,7 @@ function ProjectMeasure(props) {
             cursor: "pointer"
           }}
         >
-          <ToolTipIcon
+          <QuestionMarkIcon
             circleStyle={{
               filter: "drop-shadow(0px 4px 2px rgba(0, 46, 109, 0.3))"
             }}
