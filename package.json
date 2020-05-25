@@ -33,6 +33,7 @@
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
     "path": "^0.12.7",
+    "postgrator": "^4.0.0",
     "tedious-connection-pool": "^1.0.5"
   },
   "devDependencies": {
@@ -45,6 +46,7 @@
     "husky": "^4.2.3",
     "lerna": "^3.20.2",
     "lint-staged": "^10.0.8",
+    "mssql": "^6.2.0",
     "nodemon": "^2.0.2",
     "prettier": "^2.0.5"
   },
