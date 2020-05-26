@@ -1,9 +1,7 @@
 const Postgrator = require("postgrator");
 
 const postgrator = new Postgrator({
-  // Directory containing migration files
   migrationDirectory: __dirname + "/migration",
-  // migrationPattern: __dirname + "/migration/**",
   driver: "mssql",
   host: "127.0.0.1",
   port: 1433,

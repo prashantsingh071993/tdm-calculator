@@ -1,4 +1,4 @@
--- This file inserts current records (as of May 13, 2020) that were on the heroku "production" environment
+-- This file inserts current records (as of May 13, 2020) that were on the heroku environment
 -- Part 1 of inserting into Calculation Rule
 
 SET IDENTITY_INSERT [dbo].[CalculationRule] ON

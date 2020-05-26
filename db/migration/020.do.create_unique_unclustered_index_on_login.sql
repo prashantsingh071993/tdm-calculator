@@ -1,4 +1,3 @@
-/****** Object:  Index [IX_Login]    Script Date: 5/13/2020 8:07:55 PM ******/
 CREATE UNIQUE NONCLUSTERED INDEX [IX_Login] ON [dbo].[Login]
 (
 	[email] ASC

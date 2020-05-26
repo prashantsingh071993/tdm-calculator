@@ -1,4 +1,5 @@
--- This file inserts current records (as of May 13, 2020) that were on the heroku "production" environment
+-- TODO: SHOULD NOT INSERT THESE
+-- This file inserts current records (as of May 13, 2020) that were on the heroku environment
 
 INSERT [dbo].[SecurityToken]
     ([token], [email], [dateCreated])
