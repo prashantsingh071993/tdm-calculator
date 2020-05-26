@@ -1,19 +1,3 @@
-
-/****** Object:  StoredProcedure [dbo].[SecurityToken_Insert]    Script Date: 5/13/2020 8:07:55 PM ******/
-create proc [dbo].[SecurityToken_Insert]
-    @token nvarchar(200),
-    @email nvarchar(100)
-AS
-BEGIN
-    INSERT SecurityToken
-        (token, email )
-    VALUES
-        (@token, @email)
-END
-GO
-
-
-/****** Object:  StoredProcedure [dbo].[SecurityToken_SelectByToken]    Script Date: 5/13/2020 8:07:55 PM ******/
 CREATE proc [dbo].[SecurityToken_SelectByToken]
     @token nvarchar(200)
 AS
