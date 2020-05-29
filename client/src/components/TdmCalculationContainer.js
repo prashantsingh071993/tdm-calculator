@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import React, { useEffect, useState, useContext } from "react";
 import PropTypes from "prop-types";
-import { withRouter } from "react-router-dom";
+import { withRouter, useHistory } from "react-router-dom";
 import TdmCalculation from "./ProjectSinglePage/TdmCalculation";
 import TdmCalculationWizard from "./ProjectWizard/TdmCalculationWizard";
 import * as ruleService from "../services/rule.service";
@@ -29,7 +29,8 @@ const resultRuleCodes = [
 ];
 
 export function TdmCalculationContainer(props) {
-  const { history, account, classes } = props;
+  const { account, classes } = props;
+  const history = useHistory();
   const context = useContext(ToastContext);
   const [engine, setEngine] = useState(null);
   const [rules, setRules] = useState([]);
@@ -67,6 +68,7 @@ export function TdmCalculationContainer(props) {
         let inputs = {};
         if (Number(projectId) > 0) {
           projectResponse = await projectService.getById(projectId);
+          console.log(projectResponse.data.loginId);
           setLoginId(projectResponse.data.loginId);
           // console.log("inputs", projectResponse);
           inputs = JSON.parse(projectResponse.data.formInputs);
@@ -350,9 +352,6 @@ TdmCalculationContainer.propTypes = {
       page: PropTypes.string,
       projectId: PropTypes.string
     })
-  }),
-  history: PropTypes.shape({
-    push: PropTypes.func.isRequired
   }),
   classes: PropTypes.object.isRequired,
   location: PropTypes.shape({
