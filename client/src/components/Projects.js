@@ -406,6 +406,8 @@ const Projects = ({ account, history }) => {
     { id: "dateCreated", label: "Created On" },
     { id: "dateModified", label: "Last Modified" }
   ];
+  // eslint-disable-next-line no-console
+  console.log("something new here    ");
 
   const indexOfLastPost = currentPage * projectsPerPage;
   const indexOfFirstPost = indexOfLastPost - projectsPerPage;
