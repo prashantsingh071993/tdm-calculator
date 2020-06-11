@@ -98,10 +98,10 @@ function ProjectTargetPoints(props) {
     <div className={clsx(classes.page4, level0Class)}>
       {projectLevel && projectLevel.calcValue === 0 && (
         <div className={classes.level0Container}>
-          <img src={PlanningIcon} />
+          <img src={PlanningIcon} alt="" />
           <h1>Your project level is 0!</h1>
           <div className={classes.level0Message}>
-            <img src={WarningIcon} className={classes.warningIcon} />
+            <img src={WarningIcon} className={classes.warningIcon} alt="" />
             <p>
               Based on the information you provided, the Transportation Demand
               Management (TDM) Ordinance <strong>may</strong> not apply to your
