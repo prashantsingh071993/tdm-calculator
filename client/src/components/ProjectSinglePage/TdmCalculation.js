@@ -4,6 +4,7 @@ import { createUseStyles } from "react-jss";
 import RulePanels from "./RulePanels";
 import ResultList from "./ResultList";
 import SwitchViewButton from "../SwitchViewButton";
+import SaveProjectButton from "../SaveProjectButton";
 
 const useStyles = createUseStyles({
   root: {
@@ -13,22 +14,24 @@ const useStyles = createUseStyles({
     margin: "1em"
   },
   switchButtonWrapper: {
-    margin: "0.5em",
     display: "flex",
-    flexDirection: "row"
+    flexDirection: "column"
   },
   switchButton: {
+    marginBottom: "2.5em",
+    marginTop: "2em",
     display: "flex",
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "space-between",
     flexGrow: "0",
     flexShrink: "0",
-    flexBasis: "20%"
+    flexBasis: "20%",
+    fontSize: "20px"
   },
   rulePanelWrapper: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between"
+    justifyContent: "space-around"
   },
   rulePanel: {
     width: "50%",
@@ -40,6 +43,10 @@ const useStyles = createUseStyles({
   },
   buttonWrapper: {
     textAlign: "center"
+  },
+  tdmSinglePageTitle: {
+    marginTop: "auto",
+    marginBottom: "auto"
   }
 });
 
@@ -117,8 +124,14 @@ const TdmCalculation = props => {
         <div className={classes.switchButtonWrapper}>
           <div className={classes.switchButton}>
             <SwitchViewButton onClick={props.onViewChange}>
-              Switch to Wizard View
+              SWITCH TO WIZARD VIEW
             </SwitchViewButton>
+            <h1 className={classes.tdmSinglePageTitle}>
+              TDM Calculation Single View
+            </h1>
+            <SaveProjectButton onClick={props.onViewChange}>
+              SAVE PROJECT
+            </SaveProjectButton>
           </div>
           {rules && rules.length > 0 ? (
             <ResultList rules={resultRules} />

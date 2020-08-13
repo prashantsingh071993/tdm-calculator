@@ -8,7 +8,7 @@ const useStyles = createUseStyles({
     margin: "0.5em",
     padding: "0.5em 1em",
     backgroundColor: "#A7C539",
-
+    width: "255px",
     fontWeight: "bold",
     fontSize: "1em",
     boxShadow: "0px 6px 4px rgba(0,46,109,0.3)",
@@ -17,7 +17,7 @@ const useStyles = createUseStyles({
   }
 });
 
-const SwitchViewButton = props => {
+const SaveProjectButton = props => {
   const classes = useStyles();
   return (
     <button className={classes.root} onClick={props.onClick}>
@@ -25,9 +25,9 @@ const SwitchViewButton = props => {
     </button>
   );
 };
-SwitchViewButton.propTypes = {
+SaveProjectButton.propTypes = {
   children: PropTypes.string,
   onClick: PropTypes.func
 };
 
-export default SwitchViewButton;
+export default SaveProjectButton;

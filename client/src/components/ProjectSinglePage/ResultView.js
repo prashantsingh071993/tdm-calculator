@@ -21,9 +21,11 @@ const ResultView = props => {
   return (
     <React.Fragment>
       <div className="tdm-calculation-metrics-panel">
+        <div>
+          <span className={classes.value}>{rule.value}</span>
+          <span>{rule.units}</span>
+        </div>
         <h3 className={classes.title}>{rule.name}</h3>
-        <div className={classes.value}>{rule.value}</div>
-        <div> {rule.units}</div>
       </div>
     </React.Fragment>
   );
